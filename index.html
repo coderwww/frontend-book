@@ -5,96 +5,170 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Front End</title>
 	<link rel="stylesheet" href="">
+	<style>
+		html {font-size: 13px;}
+		main {
+			max-width: 1024px;
+			margin: 10px auto;
+		}
+		summary {margin: 5px 0;}
+		details li {padding: 2px 0;}
+
+		@media (min-width: 400px) {
+		  html {font-size: 15px;}
+		  main {padding: 0 1%;}
+		}
+		@media (min-width: 900px) {
+		  html {font-size: 17px;}
+		  main {padding: 0 2%;}
+		} 		
+	</style>
 </head>
 <body>
-	<details>
-		<summary>Validators</summary>
-		<ul>
-			<li><a href="https://validator.w3.org/" target="_blank">The W3C Markup Validation Service</a></li>
-			<li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">The W3C CSS Validation Service</a></li>
-			<li><a href="http://html5test.com/index.html" target="_blank">HTML5test - How well does your browser support HTML5?</a></li>
-		</ul>
-	</details><details>
-		<summary>Accessibility</summary>
-		<ul>
-			<li><a href="https://wave.webaim.org/" target="_blank">WAVE Web Accessibility Evaluation Tool</a></li>
-			<li><a href="http://html5accessibility.com/" target="_blank">HTML5 accessibility</a></li>
-			<li><a href="https://www.funkify.org/" target="_blank">Funkify – A disability simulator for the web</a></li>
-		</ul>
-	</details>
-	<details>
-		<summary>Browser compatibility</summary>
-		<ul>
-			<li><a href="https://caniuse.com/" target="_blank">Can I use... Support tables for HTML5, CSS3, etc</a></li>
-			<li><a href="https://css-tricks.com/almanac/" target="_blank">CSS Almanac | CSS-Tricks</a></li>
-			<li><a href="https://www.browserstack.com/" target="_blank">Most Reliable App & Cross Browser Testing Platform | BrowserStack</a></li>
-		</ul>
-	</details>
-	<details>
-		<summary>Fonts &amp; Icons</summary>
-		<ul>
-			<li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></li>
-			<li><a href="https://fontawesome.com/" target="_blank">Font Awesome</a></li>
-		</ul>
-	</details>
-	<details>
-		<summary>Tools (editors etc.)</summary>
-		<ul>
-			<li><a href="https://codepen.io/" target="_blank">CodePen: Online Code Editor and Front End Web Developer Community</a></li>
-			<li><a href="https://chrispederick.com/work/web-developer/" target="_blank">Web Developer Tool - Chris Pederick</a></li>
-		</ul>
-	</details>
-	<details>
-		<summary>CSS resets</summary>
-		<ul>
-			<li><a href="https://meyerweb.com/eric/tools/css/reset/" target="_blank">Eric Meyer’s reset</a></li>
-			<li><a href="https://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a>
-				<br>Normalize.css focuses not on using a hard reset for all common elements, but instead on setting common styles for these elements.
-			</li>
-		</ul>
-	</details>
-	<details>
-		<summary>CSS Generators</summary>
-		<ul>
-			<li><a href="https://css3generator.com/" target="_blank">CSS3 Generator</a></li>
-			<li><a href="https://border-radius.com/" target="_blank">CSS Border Radius Generator</a></li>
-		</ul>
-	</details>
-	<details>
-		<summary>CSS Animation &amp; Examples</summary>
-		<ul>
-			<li><a href="https://www.w3schools.com/css/css3_transitions.asp" target="_blank">CSS3 Transitions - from W3 Schools</a></li>
-			<li><a href="https://learn.shayhowe.com/advanced-html-css/transitions-animations/" target="_blank">Transitions and Animations - Shay Howe</a></li>
-			<li><a href="https://www.the-art-of-web.com/css/css-animation/" target="_blank">CSS: Animation Using CSS Transforms</a></li>
-			<li><a href="https://www.creativebloq.com/inspiration/css-animation-examples" target="_blank">22 stunning examples of CSS3 animation</a></li>
-			<li><a href="https://www.hongkiat.com/blog/built-with-css/" target="_blank">18 Cool Things You Won’t Believe Were Built Using CSS</a></li>
-			<li><a href="https://tutorialzine.com/2013/10/12-awesome-css3-features-you-can-finally-use" target="_blank">12 Awesome CSS3 Features That You Can Finally Start Using</a></li>
-			<li><a href="https://codepen.io/shayhowe/pen/oNYWMR" target="_blank">CSS arrow</a></li>
-			<li><a href="https://codepen.io/shayhowe/pen/yLVbqp" target="_blank">CSS selection</a></li>
-			<li><a href="https://codepen.io/shayhowe/pen/bGBWjg" target="_blank">CSS href in :after</a></li>
-			<!-- <li><a href="" target="_blank"></a></li> -->
-		</ul>
-	</details>
-	<details>
-		<summary>Tutorials</summary>
-		<ul>
-			<li><a href="https://www.w3schools.com/" target="_blank">W3C Schools</a></li>
-			<li><a href="https://learn.shayhowe.com/html-css/" target="_blank">Learn to Code HTML & CSS (shayhowe)</a></li>
-			<li><a href="https://www.codecademy.com/" target="_blank">Learn to Code - for Free | Codecademy</a></li>
-			<li><a href="https://www.wpkube.com/html5-cheat-sheet/" target="_blank">The Ultimate HTML 5 Cheat Sheet</a></li>
-		</ul>
-	</details>
-	<details>
-		<summary>Hosting</summary>
-		<ul>
-			<li><a href="https://byet.host/free-hosting" target="_blank">Byet Free Hosting</a></li>
-		</ul>
-	</details>
-	<!-- <details>
-		<summary></summary>
-		<ul>
-			<li><a href="" target="_blank"></a></li>
-		</ul>
-	</details> -->
+	<main>
+		<details>
+			<summary>Validators</summary>
+			<ul>
+				<li><a href="https://validator.w3.org/" target="_blank">The W3C Markup Validation Service</a></li>
+				<li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">The W3C CSS Validation Service</a></li>
+			</ul>
+		</details><details>
+			<summary>Accessibility</summary>
+			<ul>
+				<li><a href="https://wave.webaim.org/" target="_blank">WAVE Web Accessibility Evaluation Tool</a></li>
+				<li><a href="http://html5accessibility.com/" target="_blank">HTML5 accessibility</a></li>
+				<li><a href="https://www.funkify.org/" target="_blank">Funkify – A disability simulator for the web</a></li>
+			</ul>
+		</details>
+		<details>
+			<summary>Browser compatibility</summary>
+			<ul>
+				<li><a href="https://caniuse.com/" target="_blank">Can I use... Support tables for HTML5, CSS3, etc</a></li>
+				<li><a href="http://html5test.com/index.html" target="_blank">HTML5test - How well does your browser support HTML5?</a></li>
+				<li><a href="https://css-tricks.com/almanac/" target="_blank">CSS Almanac | CSS-Tricks</a></li>
+				<li><a href="https://www.browserstack.com/" target="_blank">Most Reliable App & Cross Browser Testing Platform | BrowserStack</a></li>
+			</ul>
+		</details>
+		<details>
+			<summary>Responsiveness</summary>
+			<ul>
+				<li><a href="https://ui.dev/amiresponsive" target="_blank">Am I Responsive?</a></li>
+				<li><a href="http://pxtoem.com/" target="_blank">PXtoEM.com: PX to EM conversion made simple.</a></li>
+				<li><a href="https://www.awwwards.com/50-examples-of-responsive-web-design.html" target="_blank">50 Examples of Responsive Web Design (plus 1)</a></li>
+				<li><a href="https://mediaqueri.es/" target="_blank">Media Queries: Examples of Responsive Web Design</a></li>
+				<li><a href="https://www.sitepoint.com/understanding-responsive-web-design-how-to-manage-fonts/" target="_blank">(article) Using Fonts Responsively</a></li>
+				<li><a href="https://designshack.net/articles/typography/whats-the-deal-with-em-and-rem/" target="_blank">(article) What’s the Deal With Em and Rem?</a></li>
+				<li><a href="https://css-tricks.com/rems-ems/" target="_blank">(article) Font Size Idea: px at the Root, rem for Components, em for Text Elements</a></li>
+			</ul>
+		</details>
+		<details>
+			<summary>Frameworks</summary>
+			<ul>
+				<li><a href="https://getbootstrap.com/" target="_blank">Bootstrap (by Twitter)</a>
+					<ul>
+						<li><a href="https://startbootstrap.com/" target="_blank">Free Bootstrap Themes, Templates, Snippets, and Guides - Start Bootstrap</a></li>
+						<li><a href="https://www.bootstrapzero.com/" target="_blank">Bootstrap Themes at BootstrapZero</a></li>
+						<li><a href="https://builtwithbootstrap.com/" target="_blank">Built With Bootstrap - Awesome Websites and Apps made with Bootstrap</a></li>
+					</ul>
+				</li>
+				<li><a href="https://get.foundation/" target="_blank">Foundation (by ZUBR)</a></li>
+				<li><a href="https://semantic-ui.com/" target="_blank">Semantic UI</a></li>
+				<li><a href="https://purecss.io/" target="_blank">Pure (by YAhoo!)</a></li>
+				<li><a href="https://yootheme.com/blog/tag/UIkit" target="_blank">UIkit (by Yootheme)</a></li>
+			</ul>
+		</details>
+		<details>
+			<summary>Fonts &amp; Icons</summary>
+			<ul>
+				<li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></li>
+				<li><a href="https://fontawesome.com/" target="_blank">Font Awesome</a></li>
+			</ul>
+		</details>
+		<details>
+			<summary>Tools (editors etc.)</summary>
+			<ul>
+				<li><a href="https://codepen.io/" target="_blank">CodePen: Online Code Editor and Front End Web Developer Community</a></li>
+				<li><a href="https://chrispederick.com/work/web-developer/" target="_blank">Web Developer Tool - Chris Pederick</a></li>
+			</ul>
+		</details>
+		<details>
+			<summary>CSS resets</summary>
+			<ul>
+				<li><a href="https://meyerweb.com/eric/tools/css/reset/" target="_blank">Eric Meyer’s reset</a></li>
+				<li><a href="https://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a>
+					<br>Normalize.css focuses not on using a hard reset for all common elements, but instead on setting common styles for these elements.
+				</li>
+			</ul>
+		</details>
+		<details>
+			<summary>CSS Generators</summary>
+			<ul>
+				<li><a href="https://css3generator.com/" target="_blank">CSS3 Generator</a></li>
+				<li><a href="https://border-radius.com/" target="_blank">CSS Border Radius Generator</a></li>
+			</ul>
+		</details>
+		<details>
+			<summary>CSS Animation &amp; Examples</summary>
+			<ul>
+				<li><a href="https://www.w3schools.com/css/css3_transitions.asp" target="_blank">CSS3 Transitions - from W3 Schools</a></li>
+				<li><a href="https://learn.shayhowe.com/advanced-html-css/transitions-animations/" target="_blank">Transitions and Animations - Shay Howe</a></li>
+				<li><a href="https://www.the-art-of-web.com/css/css-animation/" target="_blank">CSS: Animation Using CSS Transforms</a></li>
+				<li><a href="https://www.creativebloq.com/inspiration/css-animation-examples" target="_blank">22 stunning examples of CSS3 animation</a></li>
+				<li><a href="https://www.hongkiat.com/blog/built-with-css/" target="_blank">18 Cool Things You Won’t Believe Were Built Using CSS</a></li>
+				<li><a href="https://tutorialzine.com/2013/10/12-awesome-css3-features-you-can-finally-use" target="_blank">12 Awesome CSS3 Features That You Can Finally Start Using</a></li>
+				<li><a href="https://codepen.io/shayhowe/pen/oNYWMR" target="_blank">CSS arrow</a></li>
+				<li><a href="https://codepen.io/shayhowe/pen/yLVbqp" target="_blank">CSS selection</a></li>
+				<li><a href="https://codepen.io/shayhowe/pen/bGBWjg" target="_blank">CSS href in :after</a></li>
+				<!-- <li><a href="" target="_blank"></a></li> -->
+			</ul>
+		</details>
+		<details>
+			<summary>Tutorials</summary>
+			<ul>
+				<li><a href="https://www.w3schools.com/" target="_blank">W3C Schools</a></li>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Learn" target="_blank">Learn web development | MDN</a></li>
+				<li><a href="https://learn.shayhowe.com/html-css/" target="_blank">Learn to Code HTML & CSS (shayhowe)</a></li>
+				<li><a href="https://www.codecademy.com/" target="_blank">Learn to Code - for Free | Codecademy</a></li>
+				<li><a href="https://www.wpkube.com/html5-cheat-sheet/" target="_blank">The Ultimate HTML 5 Cheat Sheet</a></li>
+			</ul>
+		</details>
+		<details>
+			<summary>Code Editors</summary>
+			<ul>
+				<li><a href="https://www.sublimetext.com/" target="_blank">Sublime Text</a></li>
+				<li><a href="https://code.visualstudio.com/download" target="_blank">Visual Studio Code</a></li>
+				<li><a href="https://docs.emmet.io/cheat-sheet/" target="_blank">Emmet cheat-sheet</a></li>
+			</ul>
+		</details>
+		<details>
+			<summary>Hosting</summary>
+			<ul>
+				<li><a href="https://byet.host/free-hosting" target="_blank">Byet Free Hosting</a></li>
+			</ul>
+		</details>
+		<details>
+			<summary>Forms</summary>
+			<ul>
+				<li><a href="https://www.wufoo.com/" target="_blank">Online Form Builder with Cloud Storage Database | Wufoo</a></li>
+				<li><a href="https://www.google.com/intl/en/forms/about/" target="_blank">Google Forms</a>, <a href="https://www.google.com/intl/ru/forms/about/" target="_blank">Google Формы</a></li>
+				<li><a href="https://www.html5pattern.com/" target="_blank">HTML5Pattern is a source of regularly used Input-Patterns</a></li>
+			</ul>
+		</details>
+
+		<hr>
+		<details>
+			<summary>Vanilla JS</summary>
+			<ul>
+				<li><a href="https://developer.mozilla.org/en-US/docs/Web/Events" target="_blank">Event reference | MDN</a></li>
+			</ul>
+		</details>
+
+		<!-- <details>
+			<summary></summary>
+			<ul>
+				<li><a href="" target="_blank"></a></li>
+			</ul>
+		</details> -->
+	</main>
 </body>
 </html>
